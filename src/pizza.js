@@ -198,7 +198,9 @@ let schema = yup.object().shape({
           <div style={{ color: "red" }}>
             <div>{errors.specialText}</div>
           </div>
-          <button id="order-button" disabled={disabled}>Add to Order</button>
+          <div name="order-button" id="order-button">
+            <button disabled={disabled}>Add to Order</button>
+          </div>
         </form>
       </div>
     );

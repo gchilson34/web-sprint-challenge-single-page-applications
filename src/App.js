@@ -14,7 +14,7 @@ const App = () => {
           <Link to="/pizza" id="order-pizza">Order Pizza</Link>
         </li>
       </nav>
-      <div className="App">
+      <div className="Home">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/pizza" component={Pizza} />
